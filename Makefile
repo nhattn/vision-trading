@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -c -O3 -std=c++11 -Wall
 LDFLAGS = -I. -ldl
-SOURCES = order.cpp vision.cpp
+SOURCES = order.cpp orderbook.cpp vision.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 OBJECTS := $(addprefix objects/,$(OBJECTS))
 EXECUTABLE = vision
